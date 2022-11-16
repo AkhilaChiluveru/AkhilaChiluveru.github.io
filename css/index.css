@@ -1,18 +1,10 @@
-html,
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-#background {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  opacity: 0.4;
+  background: linear-gradient(
+    to right,
+    rgb(41, 40, 40),
+    black,
+    rgb(41, 40, 40)
+  );
 }
 .myName {
   font-size: 50px;
@@ -20,22 +12,55 @@ body {
   text-align: center;
   margin-top: 20px;
 }
-.mylogo {
-  border-radius: 50%;
+.initials {
+  color: gold;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Apple Chancery, cursive;
 }
-.navbar-toggler {
+.navbar-toggler h2,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+footer,
+p,
+span,
+introbox {
   color: white;
 }
-
+.myname {
+  font-family: Apple Chancery, cursive;
+  font-size: 60px;
+  color: rgb(238, 17, 109);
+}
 .my-menu-item {
   font-weight: bold;
   font-size: 25px;
-  color: black;
+  color: white;
 }
 .nav-link:hover {
   transform: scale(1.2);
 }
 .myactive {
-  color: rgb(12, 99, 199);
+  color: rgb(135, 226, 238);
   font-weight: bolder;
+  text-decoration: underline;
+}
+.mybioFirstWord {
+  font-style: italic;
+  font-weight: bold;
+  color: gold;
+}
+
+.introbox {
+  background: rgb(37, 54, 56);
+  color: white;
+}
+footer {
+  height: var(--footer-height);
+  bottom: 0;
+  text-align: center;
 }
