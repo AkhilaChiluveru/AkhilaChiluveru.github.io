@@ -4,41 +4,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Akhila Chiluveru Portfolio</title>
+    <title>Akhila chiluveru</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="../css/index.css" />
-    <script derfer src="index.js"></script>
   </head>
   <body>
-    <h1 class="myName">Akhila Chiluveru</h1>
-    <header class="navbar">
-      <nav role="navigation">
-        <ul class="nav-list">
-          <li class="list-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
+    <img id="background" src="../images/background.jpg" alt="background" />
 
-          <li class="list-item">
-            <a class="nav-link" href="skills.html">Skills</a>
-          </li>
+    <main>
+      <div>
+        <h1 class="myName">Akhila Chiluveru</h1>
+        <nav class="navbar navbar-expand-md navbar mb-3">
+          <div class="container-md">
+            <a class="navbar-brand">
+              <img
+                src="../images/Ac.png"
+                alt="AClogo"
+                class="mylogo"
+                height="70px"
+                width="70px"
+              />
+            </a>
+            <button
+              class="navbar-toggler collapsed bg-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsingNavbarMd"
+              aria-controls="collapsingNavbarMd"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon text-center">三</span>
+            </button>
+            <div
+              class="navbar-collapse collapse justify-content-around"
+              id="collapsingNavbarMd"
+            >
+              <ul class="navbar-nav text-center nav-list">
+                <li class="nav-item p-2">
+                  <a href="#about" class="nav-link"
+                    ><h4 class="my-menu-item text-dark">ABOUT</h4>
+                  </a>
+                </li>
+                <li class="nav-item p-2">
+                  <a href="works.html" class="nav-link"
+                    ><h4 class="my-menu-item text-dark">WORK</h4></a
+                  >
+                </li>
+                <li class="nav-item p-2">
+                  <a href="projects.html" class="nav-link"
+                    ><h4 class="my-menu-item text-dark">PROJECTS</h4>
+                  </a>
+                </li>
+                <li class="nav-item p-2">
+                  <a href="contact.html" class="nav-link"
+                    ><h4 class="my-menu-item text-dark">CONTACT</h4></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="fixed-bottom text-center">
+      <div class="container my-5">
+        <section class="justify-content-center">
+          <p><strong>Meet me on: </strong></p>
 
-          <li class="list-item">
-            <a class="nav-link" href="works.html">Works</a>
-          </li>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #082cc9"
+            href="https://www.linkedin.com/in/akhila-chiluveru/"
+            role="button"
+            >Professional : <i class="fab fa-linkedin-in"></i>
+          </a>
 
-          <li class="list-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <footer>
-      <a href="https://www.linkedin.com/in/akhila-chiluveru/">
-        <img alt="linkedin" src="../images/linkedin.png" width=50" height="50">
-      </a>
-      <a href="https://github.com/AkhilaChiluveru">
-        <img alt="github" src="../images/github.jpg" width=50" height="50">
-      </a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/AkhilaChiluveru"
+            role="button"
+          >
+            Projects : <i class="fab fa-github"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #9b049b"
+            href="https://www.instagram.com/art_by_akhila/"
+            role="button"
+          >
+            Scoial: <i class="fab fa-instagram"></i
+          ></a>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
