@@ -24,12 +24,18 @@ body {
   border-radius: 50%;
 }
 .navbar-toggler {
-  color: yellow;
-}
-.navbar-toggler-icon {
   color: white;
 }
+
 .my-menu-item {
   font-weight: bold;
   font-size: 25px;
+  color: black;
+}
+.nav-link:hover {
+  transform: scale(1.2);
+}
+.myactive {
+  color: rgb(12, 99, 199);
+  font-weight: bolder;
 }
