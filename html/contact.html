@@ -11,7 +11,6 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -27,60 +26,103 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
-    <img id="background" src="../images/background.jpg" alt="background" />
-
     <main>
-      <div>
-        <nav class="navbar navbar-expand-md navbar mb-3">
-          <div class="container-md">
-            <h3 class="initials">AC</h3>
-            <button
-              class="navbar-toggler collapsed bg-dark"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapsingNavbarMd"
-              aria-controls="collapsingNavbarMd"
-              aria-expanded="false"
-            >
-              <span class="navbar-toggler-icon text-center">三</span>
-            </button>
-            <div
-              class="navbar-collapse collapse justify-content-around"
-              id="collapsingNavbarMd"
-            >
-              <ul class="navbar-nav text-center nav-list">
-                <li class="nav-item p-2">
-                  <a href="index.html" class="nav-link"
-                    ><h4 class="my-menu-item">ABOUT</h4>
-                  </a>
-                </li>
-                <li class="nav-item p-2">
-                  <a href="works.html" class="nav-link"
-                    ><h4 class="my-menu-item">WORK</h4></a
-                  >
-                </li>
-                <li class="nav-item p-2">
-                  <a href="projects.html" class="nav-link"
-                    ><h4 class="my-menu-item">PROJECTS</h4>
-                  </a>
-                </li>
-                <li class="nav-item p-2">
-                  <a href="contact.html" class="nav-link"
-                    ><h4 class="my-menu-item myactive">CONTACT</h4></a
-                  >
-                </li>
-              </ul>
+      <nav class="navbar navbar-expand-md navbar mb-3">
+        <div class="container-md">
+          <h3 class="initials">AC</h3>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsingNavbarMd"
+            aria-controls="collapsingNavbarMd"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon text-center">三</span>
+          </button>
+          <div
+            class="navbar-collapse collapse justify-content-around"
+            id="collapsingNavbarMd"
+          >
+            <ul class="navbar-nav text-center nav-list">
+              <li class="nav-item p-2">
+                <a href="index.html" class="nav-link"
+                  ><h4 class="my-menu-item">ABOUT</h4>
+                </a>
+              </li>
+              <li class="nav-item p-2">
+                <a href="works.html" class="nav-link"
+                  ><h4 class="my-menu-item">WORK</h4></a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a href="projects.html" class="nav-link"
+                  ><h4 class="my-menu-item">PROJECTS</h4>
+                </a>
+              </li>
+              <li class="nav-item p-2">
+                <a href="#contact" class="nav-link"
+                  ><h4 class="my-menu-item myactive">CONTACT</h4></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="contact">
+        <form class="border border-5 rounded p-5 m-5">
+          <h2 class="text-center pinktext">Please fill your details</h2>
+          <div class="form-group row p-3">
+            <div class="col-sm-6">
+              <label for="name text-light "><h2>Name:</h2> </label>
+              <input
+                type="text"
+                class="form-control border form-control-lg"
+                id="name"
+                required
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="email"> <h2>Email :</h2> </label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="email"
+                required
+              />
             </div>
           </div>
-        </nav>
+          <div class="form-group row p-3 mb-3">
+            <label for="review"> <h2>Any Comments?</h2> </label>
+            <textarea
+              class="form-control"
+              aria-label="Comments"
+              rows="3"
+              id="review"
+            ></textarea>
+          </div>
+
+          <div class="form-group row">
+            <input
+              class="col btn-primary rounded p-2 m-2"
+              type="submit"
+              value="Submit"
+            />
+            <input
+              class="col btn-secondary rounded p-2 m-2"
+              type="reset"
+              value="Reset Form"
+            />
+          </div>
+        </form>
       </div>
     </main>
+
     <!-- Footer -->
-    <footer class="fixed-bottom text-center">
+    <footer class="text-center">
       <div class="container my-5">
         <section class="justify-content-center">
           <p><strong>Meet me on: </strong></p>

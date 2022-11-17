@@ -1,11 +1,14 @@
 body {
   background: linear-gradient(
     to right,
+    rgb(68, 67, 67),
     rgb(41, 40, 40),
     black,
-    rgb(41, 40, 40)
+    rgb(41, 40, 40),
+    rgb(68, 67, 67)
   );
 }
+
 .myName {
   font-size: 50px;
   font-style: italic;
@@ -34,6 +37,9 @@ introbox {
 .myname {
   font-family: Apple Chancery, cursive;
   font-size: 60px;
+  color: rgb(238, 17, 109);
+}
+.pinktext {
   color: rgb(238, 17, 109);
 }
 .my-menu-item {
