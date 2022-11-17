@@ -17,7 +17,7 @@ body {
 }
 .initials {
   color: gold;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   font-family: Apple Chancery, cursive;
 }
@@ -46,13 +46,18 @@ introbox {
 .star {
   color: gold;
 }
-.my-menu-item {
-  font-weight: bold;
-  font-size: 35px;
+.whitetext {
   color: white;
 }
-.nav-link:hover {
-  transform: scale(1.2);
+.my-menu-item {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  word-spacing: 20px;
+}
+.my-menu-item:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
 }
 .myactive {
   color: rgb(135, 226, 238);
@@ -75,6 +80,10 @@ footer {
   text-align: center;
 }
 
+.label-default {
+  background-color: gold;
+  color: black;
+}
 /* works page */
 .wrapper {
   width: 70%;
@@ -102,4 +111,12 @@ footer {
   content: "\e114";
   float: right;
   transition: all 0.5s;
+}
+
+.myprojects:hover {
+  transform: scale(1.2);
+}
+.myprojects {
+  width: 350px;
+  height: 400px;
 }
