@@ -11,7 +11,12 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -27,13 +32,13 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="../css/index.css" />
   </head>
+
   <body>
     <main>
       <div>
-        <nav class="navbar navbar-expand-md navbar mb-3">
+        <nav class="navbar navbar-expand-md navbar">
           <div class="container-md">
             <h3 class="initials">AC</h3>
             <button
@@ -57,7 +62,7 @@
                   </a>
                 </li>
                 <li class="nav-item p-2">
-                  <a href="works.html" class="nav-link"
+                  <a href="#works" class="nav-link"
                     ><h4 class="my-menu-item myactive">WORK</h4></a
                   >
                 </li>
@@ -76,9 +81,327 @@
           </div>
         </nav>
       </div>
+      <br />
+      <br />
+      <!--code-->
+      <div class="wrapper center-block" id="works">
+        <div
+          class="panel-group"
+          id="accordion"
+          role="tablist"
+          aria-multiselectable="true"
+        >
+          <div class="panel panel-default bg-dark">
+            <div class="panel-heading active" role="tab" id="education">
+              <h4 class="panel-title bg-dark">
+                <a
+                  role="button"
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapseone"
+                  aria-expanded="true"
+                  aria-controls="education"
+                >
+                  Education
+                </a>
+              </h4>
+            </div>
+            <div
+              id="collapseone"
+              class="panel-collapse collapse in"
+              role="tabpanel"
+              aria-labelledby="education"
+            >
+              <div class="panel-body">
+                <table class="table table-sm table-dark">
+                  <thead>
+                    <tr class="goldtext">
+                      <th scope="col">Education</th>
+                      <th scope="col">Institution</th>
+                      <th scope="col">% or GPA</th>
+                      <th scope="col">Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Masters</th>
+                      <td>Portland State University</td>
+                      <td>3.86 current</td>
+                      <td>Computer Science</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Bachelors</th>
+                      <td>M V S R (Osmania University)</td>
+                      <td>81%</td>
+                      <td>Computer Science</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Intermediate</th>
+                      <td>Sri Chaitanya College</td>
+                      <td>97.5%</td>
+                      <td>Recieved MHRD Scholarship</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">SSC</th>
+                      <td>Krishnaveni Talent School</td>
+                      <td>91%</td>
+                      <td>NA</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default bg-dark">
+            <div class="panel-heading" role="tab" id="work">
+              <h4 class="panel-title bg-dark">
+                <a
+                  class="collapsed"
+                  role="button"
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Previous Work Expereince
+                </a>
+              </h4>
+            </div>
+            <div
+              id="collapseTwo"
+              class="panel-collapse collapse"
+              role="tabpanel"
+              aria-labelledby="work"
+            >
+              <div class="panel-body">
+                <table class="table table-sm table-dark">
+                  <thead>
+                    <tr class="goldtext">
+                      <th scope="col">ADP <br />(Retirement Services)</th>
+                      <th scope="col">Member Technical (Aug2020-June 2021)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Roles&Responsibilities</th>
+                      <td>
+                        <ul>
+                          <li>
+                            Worked as an Automated Quality Analyst and verified
+                            critical functional requirements of our client and
+                            tested all environments including production within
+                            the scheduled time.
+                          </li>
+                          <li>
+                            Experienced in Sprint planning, Refinements,
+                            Presentation of demos, Retrospectives.
+                          </li>
+                          <li>
+                            Performed API testing using SoapUI to reduce manual
+                            time
+                          </li>
+                          <li>
+                            Validated various kinds of ads on various pages and
+                            monitored each of its performances and analyzed
+                            using splunk. Created reports and presented them
+                            during scrum calls and worked on the input received.
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Technical stack</th>
+                      <td>
+                        Jira, Jenkins, Splunk, MySQL, Selenium WebDriver, Soap
+                        UI, Eclipse, Java.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="table table-sm table-dark">
+                  <thead>
+                    <tr class="goldtext">
+                      <th scope="col">
+                        Accenture <br />(Simba- Markel Corporation)
+                      </th>
+                      <th scope="col">
+                        Software Developer (Nov 2017- Jun 2020)
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Roles&Responsibilities</th>
+                      <td>
+                        <ul>
+                          <li>
+                            Successfully developed Renewal flow of insurance
+                            policies as a critical resource using database
+                            procedures, cursors, and functions and groovy on
+                            grails.
+                          </li>
+                          <li>
+                            Worked for production support with only me being the
+                            developer in the team -debugged multiple issues and
+                            errors of clients and resolved in the stipulated
+                            amount of time.
+                          </li>
+                          <li>
+                            Implemented Automation scripts for multiple
+                            Insurance Policies using Selenium Web driver, Java.
+                            Extensively automated regression phase by developing
+                            over 250 test cases.
+                          </li>
+                          <li>
+                            Worked in a highly Agile environment and was
+                            responsible for the daily update by attending Sprint
+                            meetings
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Achievements</th>
+                      <td>
+                        <ul>
+                          <li>
+                            Saved 20% time and cost of testing by automation
+                            using Selenium WebDriver.
+                          </li>
+                          <li>
+                            Increased productivity by 20% by effectively
+                            creating renewal flow.
+                          </li>
+                          <li>
+                            Received client satisfaction for the robust quality
+                            of development and effective Automation testing
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="table table-sm table-dark">
+                  <thead>
+                    <tr class="goldtext">
+                      <th scope="col">
+                        Accenture <br />(Workbench - Markel Corporation )
+                      </th>
+                      <th scope="col">Quality Analyst (Nov 2017- Jun 2020)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Roles&Responsibilities</th>
+                      <td>
+                        <ul>
+                          <li>
+                            Written, Analyzed and Executed 630 test cases for
+                            web-based application called Workbench.
+                          </li>
+                          <li>
+                            Designed test scenarios and participated in overall
+                            testing for conversion of desktop application to new
+                            web application system.
+                          </li>
+                          <li>
+                            Identified& developed automation scripts covering
+                            435 test cases using Microsoft Visual Studio,C#.
+                          </li>
+                          <li>
+                            Maintained the Selenium automation code in Code
+                            Repository tools like GitHub.
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Achievements</th>
+                      <td>
+                        <ul>
+                          <li>
+                            Saved 40% time and cost of testing by automation
+                            scripts for documentgeneration.
+                          </li>
+                          <li>
+                            • Rewarded as ‘Distinct Achiever’ for best
+                            performance.
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default bg-dark">
+            <div class="panel-heading" role="tab" id="skills">
+              <h4 class="panel-title bg-dark">
+                <a
+                  class="collapsed"
+                  role="button"
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Skills
+                </a>
+              </h4>
+            </div>
+            <div
+              id="collapseThree"
+              class="panel-collapse collapse"
+              role="tabpanel"
+              aria-labelledby="skills"
+            >
+              <div class="panel-body">
+                <div class="border border-2 p-2 m-2">
+                  <h3 class="goldtext">Technology</h3>
+                  <p>
+                    C, C++, Java,Python, Javascript, HTML, CSS, Goovy on grails,
+                    React JS , docker, Kubernetes
+                  </p>
+                </div>
+                <div class="border border-2 p-2 m-2">
+                  <h3 class="goldtext">Operating system</h3>
+                  <p>Windows, Linux -Ubuntu , Mac OS</p>
+                </div>
+                <div class="border border-2 p-2 m-2">
+                  <h3 class="goldtext">Databases</h3>
+                  <p>MySQL, PostgreSQL</p>
+                </div>
+                <div class="border border-2 p-2 m-2">
+                  <h3 class="goldtext">Management Tool</h3>
+                  <p>Code - GitHub Flow, Tortoise SVN</p>
+                  <p>Code Review - GitHub Flow, FishEye</p>
+                  <p>Code Control - Jenkins, Bamboo</p>
+                </div>
+                <div class="border border-2 p-2 m-2">
+                  <h3 class="goldtext">Selenium</h3>
+                  <p>Selenium IDE, Selenium Web Driver, TestNG, POM, Actions</p>
+                </div>
+                <div class="border border-2 p-2 m-2">
+                  <h3 class="goldtext">Cloud</h3>
+                  <p>
+                    AWS - EC2, Dynamo DB, IAM, S3 , Cloud9,Elastic Beanstalk,
+                    Lambda, Elastic Load balancers, Auto Scaling groups
+                  </p>
+                  <p>
+                    GCP - Cloud Engine, IAM, Cloud Shell, App Engine, cloud Run
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- Footer -->
-    <footer class="fixed-bottom text-center">
+    <footer class="text-center">
       <div class="container my-5">
         <section class="justify-content-center">
           <p><strong>Meet me on: </strong></p>
@@ -105,7 +428,7 @@
             href="https://www.instagram.com/art_by_akhila/"
             role="button"
           >
-            Scoial: <i class="fab fa-instagram"></i
+            Social: <i class="fab fa-instagram"></i
           ></a>
         </section>
       </div>

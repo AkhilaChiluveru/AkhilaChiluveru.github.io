@@ -26,6 +26,16 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
+    <link
+      href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
     <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
@@ -96,13 +106,33 @@
             </div>
           </div>
           <div class="form-group row p-3 mb-3">
-            <label for="review"> <h2>Any Comments?</h2> </label>
-            <textarea
-              class="form-control"
-              aria-label="Comments"
-              rows="3"
-              id="review"
-            ></textarea>
+            <div class="col-sm-6">
+              <label for="review"> <h2>Any Comments?</h2> </label>
+              <textarea
+                class="form-control"
+                aria-label="Comments"
+                rows="3"
+                id="review"
+              ></textarea>
+            </div>
+            <div class="col-sm-6">
+              <label for="star-rating-1" class="control-label"
+                ><h2>Rating:</h2></label
+              >
+              <input
+                id="star-rating-1"
+                name="star-rating-1"
+                class="rating rating-loading"
+                value="0"
+                data-min="0"
+                data-max="5"
+                data-step="0.5"
+                data-size="xs"
+              />
+              <script>
+                $("#star-rating-1").rating();
+              </script>
+            </div>
           </div>
 
           <div class="form-group row">
@@ -149,7 +179,7 @@
             href="https://www.instagram.com/art_by_akhila/"
             role="button"
           >
-            Scoial: <i class="fab fa-instagram"></i
+            Social: <i class="fab fa-instagram"></i
           ></a>
         </section>
       </div>

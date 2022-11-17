@@ -42,9 +42,13 @@ introbox {
 .pinktext {
   color: rgb(238, 17, 109);
 }
+.goldtext,
+.star {
+  color: gold;
+}
 .my-menu-item {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
   color: white;
 }
 .nav-link:hover {
@@ -69,4 +73,33 @@ footer {
   height: var(--footer-height);
   bottom: 0;
   text-align: center;
+}
+
+/* works page */
+.wrapper {
+  width: 70%;
+}
+@media (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+.panel-heading {
+  padding: 0;
+  border: 0;
+}
+.panel-title > a,
+.panel-title > a:active {
+  display: block;
+  padding: 15px;
+  color: rgb(238, 17, 109);
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.panel-heading a:before {
+  font-family: "Glyphicons Halflings";
+  content: "\e114";
+  float: right;
+  transition: all 0.5s;
 }
