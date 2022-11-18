@@ -17,9 +17,10 @@ body {
 }
 .initials {
   color: gold;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   font-family: Apple Chancery, cursive;
+  border-radius: 50%;
 }
 .navbar-toggler h2,
 h1,
@@ -31,23 +32,27 @@ h6,
 footer,
 p,
 span,
-introbox {
+.introbox {
   color: white;
 }
 .myname {
   font-family: Apple Chancery, cursive;
   font-size: 60px;
   color: rgb(238, 17, 109);
+  font-weight: bold;
 }
 .pinktext {
-  color: rgb(238, 17, 109);
+  color: #ee116d;
 }
 .goldtext,
 .star {
-  color: gold;
+  color: #ffd700;
 }
 .whitetext {
   color: white;
+}
+.boldText {
+  font-weight: bold;
 }
 .my-menu-item {
   font-weight: bold;
@@ -55,9 +60,10 @@ introbox {
   color: white;
   word-spacing: 20px;
 }
-.my-menu-item:hover {
-  transform: scale(1.1);
-  text-decoration: underline;
+.initials:hover,
+.my-menu-item:hover,
+.myprojects:hover {
+  transform: scale(1.2);
 }
 .myactive {
   color: rgb(135, 226, 238);
@@ -73,6 +79,7 @@ introbox {
 .introbox {
   background: rgb(37, 54, 56);
   color: white;
+  font-size: 20px;
 }
 footer {
   height: var(--footer-height);
@@ -100,7 +107,7 @@ footer {
 .panel-title > a,
 .panel-title > a:active {
   display: block;
-  padding: 15px;
+  padding: 20px;
   color: rgb(238, 17, 109);
   font-size: 25px;
   font-weight: bold;
@@ -113,10 +120,23 @@ footer {
   transition: all 0.5s;
 }
 
-.myprojects:hover {
-  transform: scale(1.2);
-}
 .myprojects {
   width: 350px;
   height: 400px;
+}
+
+#toTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 40%;
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+#toTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
