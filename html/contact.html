@@ -37,6 +37,7 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
     <link rel="stylesheet" href="../css/index.css" />
+    <script defer src="../index.js"></script>
   </head>
   <body>
     <main>
@@ -83,8 +84,16 @@
         </div>
       </nav>
       <div id="contact">
-        <form class="border border-5 rounded p-5 m-5">
+        <form
+          class="border border-5 rounded p-5 m-5"
+          action="mailto:chiluveruakhila@gmail.com"
+          method="POST"
+          enctype="text/plain"
+        >
           <h1 class="text-center pinktext">Please fill your details</h1>
+          <p class="text-center">
+            I will try to contact you back as soon as possible
+          </p>
           <div class="form-group row p-3">
             <div class="col-sm-6">
               <label for="name" class="h2 whitetext">Name:</label>
@@ -92,6 +101,7 @@
                 type="text"
                 class="form-control border form-control-lg"
                 id="name"
+                name="Name"
                 required
               />
             </div>
@@ -101,6 +111,7 @@
                 type="text"
                 class="form-control form-control-lg"
                 id="email"
+                name="Email"
                 required
               />
             </div>
@@ -111,17 +122,18 @@
               <textarea
                 class="form-control"
                 aria-label="Comments"
-                rows="3"
+                rows="2"
                 id="review"
+                name="Review "
               ></textarea>
             </div>
             <div class="col-sm-6">
-              <label for="star-rating-1" class="control-label h2 whitetext"
+              <label for="star-rating" class="control-label h2 whitetext"
                 >Rating:</label
               >
               <input
-                id="star-rating-1"
-                name="star-rating-1"
+                id="star-rating"
+                name="star-rating"
                 class="rating rating-loading"
                 value="0"
                 data-min="0"
@@ -130,7 +142,7 @@
                 data-size="xs"
               />
               <script>
-                $("#star-rating-1").rating();
+                $("#star-rating").rating();
               </script>
             </div>
           </div>
