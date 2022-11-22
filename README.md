@@ -1,4 +1,6 @@
-Project Description: This is portfolio of Akhila Chiluveru for Introduction to Web Development course.
+## Project Description:
+
+This is portfolio of Akhila Chiluveru for Introduction to Web Development course.
 There is no bacakend implemented for this project.
 
 Deployed at:
@@ -12,10 +14,10 @@ This project is compatible with any browser.
 
 ## Technologies:
 
-HTML
-Bootstrap
-CSS
-javascript
+- HTML
+- Bootstrap
+- CSS
+- javascript
 
 ## Important tutorials/websites:
 

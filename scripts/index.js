@@ -12,7 +12,3 @@ function scrollFunction() {
 function topFunction() {
   document.documentElement.scrollTop = 0;
 }
-
-if (document.getElementById("review")) {
-  alert("Email window will open on clicking submit.");
-}
