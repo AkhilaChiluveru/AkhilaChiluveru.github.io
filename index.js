@@ -14,5 +14,5 @@ function topFunction() {
 }
 
 if (document.getElementById("review")) {
-  alert("Submit will open email window with information filled. ");
+  alert("Email window will open on clicking submit.");
 }
