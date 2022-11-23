@@ -3,7 +3,7 @@
 This is portfolio of Akhila Chiluveru for Introduction to Web Development course.
 There is no bacakend implemented for this project.
 
-Deployed at:
+Deployed at:https://akhilachiluveru.github.io/
 
 ## Instructions to run this code:
 
