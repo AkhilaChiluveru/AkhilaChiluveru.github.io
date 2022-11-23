@@ -1,7 +1,7 @@
 ## Project Description:
 
 This is portfolio of Akhila Chiluveru for Introduction to Web Development course.
-There is no bacakend implemented for this project.
+This is only frontend project with no bacakend implemented.
 
 Deployed at:https://akhilachiluveru.github.io/
 
@@ -21,13 +21,9 @@ This project is compatible with any browser.
 
 ## Important tutorials/websites:
 
-[About - Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
-[About - Footer](https://mdbootstrap.com/docs/standard/navigation/footer/)
-
-[Works - Panel](https://getbootstrap.com/docs/4.3/components/collapse/)
-[Works - Tables](https://getbootstrap.com/docs/4.0/content/tables/)
-
-[Projects-Card](https://getbootstrap.com/docs/4.0/components/card/)
-
-[Contact-5 stars](https://www.pakainfo.com/bootstrap-5-star-rating-example/)
-[Contact-Send email](https://blog.hubspot.com/marketing/html-form-email)
+- [About - Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
+- [About - Footer](https://mdbootstrap.com/docs/standard/navigation/footer/)
+- [Works - Panel](https://getbootstrap.com/docs/4.3/components/collapse/)
+- [Works - Tables](https://getbootstrap.com/docs/4.0/content/tables/)
+- [Projects-Card](https://getbootstrap.com/docs/4.0/components/card/)
+- [Contact-5 stars](https://www.pakainfo.com/bootstrap-5-star-rating-example/)

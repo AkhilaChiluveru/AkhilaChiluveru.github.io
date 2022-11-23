@@ -91,7 +91,7 @@ footer {
   background-color: gold;
   color: black;
 }
-/* works page */
+
 .wrapper {
   width: 70%;
 }
@@ -119,12 +119,10 @@ footer {
   float: right;
   transition: all 0.5s;
 }
-
 .myprojects {
   width: 350px;
   height: 420px;
 }
-
 #toTop {
   display: none;
   position: fixed;
@@ -136,7 +134,6 @@ footer {
   font-size: 40px;
   padding-bottom: 5px;
 }
-
 #toTop:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555;
 }
