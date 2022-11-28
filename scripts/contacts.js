@@ -6,7 +6,7 @@ function handleSubmit(event) {
   let email = document.getElementById("email").value;
   let namediv = document.getElementById("namediv");
   let emaildiv = document.getElementById("emaildiv");
-  const nameregex = "/[a-zA-Z]";
+  const nameregex = /^[a-zA-Z ]+$/;
   const emailregex =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
